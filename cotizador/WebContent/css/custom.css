@@ -1,0 +1,399 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	width: 100%
+}
+body {
+	background: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2em;
+	color: #848484;
+}
+h1 {
+	color: #00a33a;
+	font-size: 2em;
+	margin: 0.7em 0em;
+}
+.med {
+	width: 669px;
+}
+
+
+.header {
+	background: url('../images/top.png') top center repeat-x;
+	height: 38px;
+	position: relative;
+}
+input[type="text"]{
+	background: white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1em;
+	color: #848484;
+	border: 1px solid #848484;
+	border-radius: 5px;
+	padding: 3px 6px;
+}
+input[type="submit"]{
+	background: #00a33a;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1em;
+	color: white;
+	border: 1px solid #848484;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: block;
+	float: right;
+	vertical-align: top;
+}
+select {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border: 1px solid #848484;
+	border-radius: 5px;
+	color: #848484;
+} 
+img.banner {
+	display. block;
+}
+form {
+	margin: 8px 0px;
+	background: #f4f4f4;
+	padding: 20px 25px 50px 25px;
+}
+form .item {
+	margin: 8px 0px;
+	padding: 3px 0px;
+}
+form .item label {
+	text-align: left;
+	display: inline-block;
+	width: 165px;
+}
+form .item input.widmin {
+	width: 60px;
+}
+form .item select.doc {
+	width: 45px;
+}
+form .item input.wid {
+	width: 400px;
+}
+form .item input.widmax {
+	width: 448px;
+}
+form .item span {
+	color: #1e1e1e;
+}
+.action {
+	display: block;
+	text-align: right;
+	padding: 15px 0px;;
+	margin-bottom: 15px;
+}
+.action a,
+#printpdf {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: #00350b;
+	margin: 0px 5px;
+	padding: 30px 0px 0px 0px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 30px auto;
+	width: 110px;
+	background-color: transparent;
+	border: 0px;
+}
+.action a#printpdf,
+#printpdf {
+	background-image: url('../images/Print.png');
+}
+.action a#enviarcorreo {
+	background-image: url('../images/Email.png');
+}
+/**** VALORES HTML ****/
+.pages {
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+}
+.pages img {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+.pages div {
+	position: absolute;
+	z-index: 2;
+	line-height: 1em;
+	font-size: 0.9em;
+	color: black;
+}
+.pages div.poliza {
+	top: 77px;
+	left: 55px;
+}
+.pages div.factura {
+	top: 77px;
+	left: 281px;
+}
+.pages div.codpro{
+	top: 140px;
+	left: 105px;
+}
+.pages div.codagencia {
+	top: 153px;
+	left: 105px;
+}
+.pages div.agencia {
+	top: 165px;
+	left: 105px;
+}
+.pages div.producto {
+	top: 139px;
+	left: 312px;
+}
+.pages div.certificado {
+	top: 154px;
+	left: 312px;
+}
+.pages div.documento1{
+	top: 141px;
+	left: 448px;
+}
+.pages div.direccion1{
+	top: 154px;
+	left: 448px;
+}
+.pages div.fechaexp {
+	top: 203px;
+	left: 47px;
+	font-size: 1.3em;
+}
+.pages div.vigenciapol1D {
+	top: 198px;
+	left: 201px;
+}
+.pages div.vigenciapol1M {
+	top: 198px;
+	left: 255px;
+}
+.pages div.vigenciapol1A {
+	top: 198px;
+	left: 305px;
+}
+.pages div.vigenciapol2D {
+	top: 212px;
+	left: 201px;
+}
+.pages div.vigenciapol2M {
+	top: 212px;
+	left: 255px;
+}
+.pages div.vigenciapol2A {
+	top: 212px;
+	left: 305px;
+}
+.pages div.fechaimp{
+	top: 203px;
+	left: 487px;
+	font-size: 1.3em;
+}	
+.pages div.tomador {
+	top: 244px;
+	left: 95px;
+}
+.pages div.direccion2 {
+	top: 259px;
+	left: 95px;
+}
+.pages div.asegurado {
+	top: 272px;
+	left: 95px;
+}
+.pages div.beneficiario{
+	top: 285px;
+	left: 95px;
+}
+.pages div.correo {
+	top: 261px;
+	left: 350px;
+}
+.pages div.documento2 {
+	top: 245px;
+	left: 350px;
+}
+.pages div.telefono {
+	top: 265px;
+	left: 510px;
+}
+.pages div.cobertura1 {
+	top: 334px;
+	left: 37px;
+	font-size: 0.8em;
+}
+.pages div.cobertura2 {
+	top: 334px;
+	right: 40px;
+	font-size: 0.8em;
+}
+.pages div.valortotal {
+	top: 458px;
+	right: 260px;
+	font-size: 1.2em;
+}
+.pages div.numriesgos {
+	top: 482px;
+	left: 310px;
+}
+.pages div.primaneta {
+	top: 511px;
+	right: 454px;
+}
+.pages div.gastos {
+	top: 511px;
+	right: 314px;
+}
+.pages div.iva {
+	top: 511px;
+	right: 174px;
+}
+.pages div.totalpagar {
+	top: 511px;
+	right: 44px;
+}
+.pages div.formapago {
+	top: 526px;
+	left: 102px;
+}
+.pages div.coasegutopart {
+	top: 564px;
+	left: 232px;
+}
+.pages div.intercod {
+	top: 564px;
+	left: 317px;
+}
+.pages div.internom {
+	top: 564px;
+	left: 387px;
+}
+.pages div.interpart {
+	top: 564px;
+	left: 537px;
+}	
+.pages div.cotcon {
+	top: 306px;
+	left: 37px;
+	width: 537px;
+	height: 366px;
+	overflow: hidden;
+	font-size: 0.5em;
+}
+/**** JQUERY ****/
+.ui-widget-overlay {
+	display: none;
+}
+.ui-dialog {
+	position: fixed !important;
+	top: 0px !important;
+	left: 0px !important;
+	right: 0px;
+	bottom: 0px;
+	width: 100% !important;
+	height: 100% !important;
+	background: url('../images/opacidad.png') center center repeat;
+	z-index: 99;
+}
+.ui-dialog-titlebar {
+	display:none;
+}
+.modalerror .ui-dialog-content {
+	width: 450px !important;
+	height: auto;
+	font-weight: bold;
+	display: block;
+	padding: 10px 15px;
+	background: url('../images/top.png') top center repeat-x;
+	position: relative;;
+	margin: 300px 0px 0px 90px;
+	color: white;
+}
+.modalerror .ui-dialog-content img {
+	float: left;
+	vertical-align: top;
+	margin: -4px 10px 0px 0px;
+	display: block;
+}
+.modalerror a#cerrarDialogo {
+	position: absolute;
+	display: block;
+	cursor: pointer;
+	right: 8px;
+	top: 10px;
+	line-height: 1em;
+	font-size: 1.5em;
+}
+.modalcoti .ui-dialog-content {
+	width: 220px !important;
+	height: auto;
+	font-weight: bold;
+	display: block;
+	padding: 10px 15px;
+	background: white;
+	position: relative;;
+	margin: 200px 0px 0px 160px;
+	color: #00a33a;
+	text-align: center;
+	box-shadow: 0px 0px 15px #848484;
+}
+.modalcoti .ui-dialog-content img {
+	margin: 0px auto;
+	display: block;
+}
+.modalcoti a#cerrarDialogo {
+	display: none;
+}
+.ui-datepicker  {
+	background: white;
+	padding: 10px;
+	box-shadow: 0px 0px 20px black;
+	position: absolute;
+	z-indeX: -1;
+	top: 0px;
+}
+.ui-datepicker-header {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #00a33a;
+}
+.ui-datepicker-header .ui-datepicker-title {
+	text-align: center;
+}
+.ui-datepicker-header .ui-datepicker-title select {
+	margin: 0px 2px;
+}
+.ui-datepicker-header .ui-datepicker-next,
+.ui-datepicker-header .ui-datepicker-prev,
+.ui-datepicker-buttonpane  {
+	display: none;
+}
+.ui-datepicker-calendar thead th,
+.ui-datepicker-calendar tbody td {
+	text-align: center;
+	padding: 0px 2px;
+}
+.ui-datepicker-calendar thead th {
+	color: #00a33a;
+	font-weight: normal;
+}
+.ui-datepicker-calendar tbody td a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #848484;
+}
